@@ -3,7 +3,7 @@ from tkinter import filedialog, messagebox, Toplevel
 from PIL import ImageTk
 from image_processing import recognize_text, process_image
 from database import save_text_to_database
-
+from test import button_recognize, image_label, button_read_text, window
 
 file_path = ""
 original_image = None
